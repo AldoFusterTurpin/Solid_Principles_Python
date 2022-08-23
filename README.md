@@ -1,7 +1,7 @@
 ### The five SOLID principles are:
 - Single responsibility principle: a class should have one, and only one, reason to change.
 
-- Open-closed principle: software entities should be open for extension, but closed for modification. It should be possible to extend the behavior of a class without  modifying it.
+- Open-closed principle: software entities should be open for extension, but closed for modification. It should be possible to extend the behavior of a class without modifying it.
 
 - Liskov Substitution principle: subclasses should be substitutable for their superclasses.
 
@@ -17,6 +17,8 @@ You will find a folder inside "src" for every SOLID principle. And for each of t
 There is on exception. I am applying the Interface segregation Principle in order to satisfy the Liskov Substitution Principle. That's why:
 - The folder of the Liskov Substitution Principle ("LIS") just contains a subfolder named "wrong".
 - The folder of the Interface Segregation Principle ("ISP") just contains a subfolder named "right".
+
+There is a folder called "diagrams" with the diagrams of these code examples, both in .png and .drawio formats.
 
 ### To execute the examples
 #### You should be in the root folder "Solid_Principles_Python"
