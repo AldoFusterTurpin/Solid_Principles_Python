@@ -1,3 +1,6 @@
+### Requirements
+Install and use Python >= 3.7 as I am using [dataclasses](https://docs.python.org/3/library/dataclasses.html).
+
 ### The five SOLID principles are:
 - Single responsibility principle: a class should have one, and only one, reason to change.
 
@@ -19,6 +22,18 @@ There is on exception. I am applying the Interface segregation Principle in orde
 - The folder of the Interface Segregation Principle ("ISP") just contains a subfolder named "right".
 
 There is a folder called "diagrams" with the diagrams of these code examples, both in .png and .drawio formats.
+
+To delete __pycache__ folders:
+
+```sh
+find . -type d -name "__pycache__" -exec rm -r {} \;
+```
+
+I am using [__main__.py](https://docs.python.org/3/library/__main__.html) and [packages](https://docs.python.org/3/tutorial/modules.html#packages) in this project.
+
+Some resources:
+- [Python Interfaces](https://realpython.com/python-interface/#using-abstract-method-declaration)
+- [Python Packages](https://realpython.com/python-modules-packages)
 
 ### To execute the examples
 #### You should be in the root folder "Solid_Principles_Python"

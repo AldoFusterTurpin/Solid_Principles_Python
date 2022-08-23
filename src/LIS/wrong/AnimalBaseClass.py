@@ -15,14 +15,14 @@ class AnimalBaseClass(metaclass=ABCMeta):
             NotImplemented
         )
 
-        @abstractmethod
-        def walk(self) -> None:
-            raise NotImplementedError
+    @abstractmethod
+    def walk(self) -> None:
+        raise NotImplementedError
 
-        @abstractmethod
-        def fly(self) -> None:
-            raise NotImplementedError
+    @abstractmethod
+    def fly(self) -> None:
+        raise NotImplementedError
 
-        @abstractmethod
-        def swim(self) -> None:
-            raise NotImplementedError
+    @abstractmethod
+    def swim(self) -> None:
+        raise NotImplementedError
