@@ -1,3 +1,6 @@
+### Presentation
+You can find a [presentation](https://youtu.be/2fgBKDT1j8k?t=24307) I did for the [PyGeekle'22](https://geekle.us/schedule/python) online summit using the code examples in this project.
+
 ### Requirements
 Install and use Python >= 3.7 as I am using [dataclasses](https://docs.python.org/3/library/dataclasses.html).
 
